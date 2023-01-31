@@ -1,0 +1,78 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    height: 80px;
+    line-height: 80px;
+}
+
+#header-logo {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-title {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+/* MAIN */
+/* Notifications */
+.notification {
+    padding: 10px 0;
+    color: white;
+}
+
+.notification p {
+    font-size: 1.5rem;
+}
+
+.counter {
+    display: inline-block;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Emails */
+.emails {
+    padding: 10px 0;
+}
+
+ul.emails-list {
+    list-style-type: none;
+}
+
+li {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.not-read {
+    background-color: lightgray;
+}
+
+.email-text {
+    color: gray;
+}
