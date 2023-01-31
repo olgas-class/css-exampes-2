@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-size: 2rem;
+}
+
+.title {
+    /* = 24px */
+    font-size: 2rem;
+    margin-bottom: 1em; 
+}
+
+.title-em {
+    font-size: 2em;
+}
+
+.btn {
+    background-color: lightblue;
+    padding: 1em;
+}
+
+.btn-large {
+    /* 32px */
+    font-size: 2rem; 
+}
+
+.btn-small {
+    /* 16px */
+    font-size: 1rem;
+}
